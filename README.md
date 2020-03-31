@@ -1,6 +1,6 @@
 # 恐龙快跑!
 
-更容易嵌入的"恐龙快跑!"游戏.[玩一玩](http://t-rex.limingkai.cn/)
+更容易嵌入的"恐龙快跑!"游戏.
 
 恐龙快跑!(T-Rex Runner) 是 Chrome 浏览器在离线时出现的小游戏彩蛋.你可以断开网络后,在 Chrome 进入任意链接看到这个游戏.
 
@@ -16,27 +16,13 @@ That's all:
 
 ```html
 <div id="container"></div>
-<script src="path/to/runner.js"></script>
+<script src="runner.js"></script>
 <script>
  initRunner('#container');
 </script>
 ```
 
-## 安装
+## 说明
 
-### 下载 runner.js
-
-鼠标右键点击下面的链接并选择"链接另存为"可以下载 runner.js:
-
-https://unpkg.com/t-rex-runner/dist/runner.js
-
-### 通过 NPM 安装
-
-运行 `npm i t-rex-runner`,在 `dist` 文件夹下可以找到 `runner.js`.
-
-## 参与开发
-
-使用 `npm install` 安装依赖,然后:
-
- - 运行 `npm start` 之后打开 http://0.0.0.0:8080/ ,编辑代码时这个网页会自动刷新
- - 运行 `npm run build` 后, `dist` 文件夹下会生成 `runner.js`
+更更更容易嵌入的恐龙快跑游戏，前作者的文件目录还是很复杂，还不够简洁，现在直接引入runner文件一步到位！
+runner.js可以处于任意位置，例如OSS云储存，Github，等。
